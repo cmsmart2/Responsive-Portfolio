@@ -1,0 +1,36 @@
+#links{
+float: right;
+}
+#h2_index {
+    float: left;
+}
+#profile_pic {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  float: left;
+  clear: left;
+}
+.images {
+  float: left;
+  height: 250px;
+  width: 300px; 
+  position: relative;
+  margin: 20px;
+}
+.port_links {
+  position: absolute;
+  background-color:#4aaaa5;
+  width: 300px;
+  text-align: center;
+  bottom: 10px;
+  padding: 10px 0;
+  color: #eeeeee;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.portfolio_images {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  /* width: 100%; */
+}
