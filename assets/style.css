@@ -33,7 +33,7 @@ a:link {
 h1{
     font-size: 30px;
     background-color: #4aaaa5;
-    width: 200px;
+    width: 250px;
     color: #eeeeee;
     text-align: center;
     vertical-align: middle;
@@ -96,15 +96,27 @@ footer {
   #message {
       height: 150px;
   }
-
+  * {
+    box-sizing: border-box;
+  }
   @media screen and (max-width: 980px) {
 
   }
   @media screen and (max-width: 768px) {
 
-  }
+}
   @media screen and (max-width: 640px){
 header {
     position: static
 }
+h1, footer {
+    width: 100%;
+}
+#links, #form {
+    width: 100%;
+}
+.about_me, .images {
+    width: 100%;
+}
   }
+ 
