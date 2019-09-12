@@ -100,14 +100,51 @@ footer {
     box-sizing: border-box;
   }
   @media screen and (max-width: 980px) {
-
+    header, footer {
+        width: 100%;
+    }
+    #form {
+        width: 100%;
+    }
+    #profile_pic {
+        width: 100%;
+        height: auto;
+    }
+    .about_me, .images {
+        width: 100%;
+    }
   }
   @media screen and (max-width: 768px) {
-
+    header {
+        position: static;
+    }
+    h1, footer {
+        width: 100%;
+    }
+    #links, #form {
+        width: 100%;
+    }
+    .navbar {
+        flex-flow: column;
+    }
+    #links {
+        background-color: #ffffff;
+        border-color: #cccccc;
+        border-style: solid;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    #profile_pic {
+        width: 100%;
+        height: auto;
+    }
+    .about_me, .images {
+        width: 100%;
+    }
 }
   @media screen and (max-width: 640px){
 header {
-    position: static
+    position: static;
 }
 h1, footer {
     width: 100%;
@@ -115,8 +152,22 @@ h1, footer {
 #links, #form {
     width: 100%;
 }
+.navbar {
+    flex-flow: column;
+}
+#links {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-style: solid;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+#profile_pic {
+    width: 100%;
+    height: auto;
+}
 .about_me, .images {
     width: 100%;
 }
-  }
+}
  
