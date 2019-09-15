@@ -104,14 +104,10 @@ footer {
         width: 100%;
     }
     #form {
-        width: 100%;
+        width: 60%;
     }
-    #profile_pic {
-        width: 100%;
-        height: auto;
-    }
-    .about_me, .images {
-        width: 100%;
+    .about_me {
+        width: 80%;
     }
   }
   @media screen and (max-width: 768px) {
@@ -135,12 +131,14 @@ footer {
         padding: 20px;
     }
     #profile_pic {
-        width: 100%;
-        height: auto;
+        width: 50%;
     }
-    .about_me, .images {
-        width: 100%;
+    .about_me {
+        width: 80%;
     }
+    /* p {
+        clear: left;
+        } */
 }
   @media screen and (max-width: 640px){
 header {
@@ -165,9 +163,13 @@ h1, footer {
 #profile_pic {
     width: 100%;
     height: auto;
+    float: center;
 }
 .about_me, .images {
-    width: 100%;
+    width: 70%;
+}
+p {
+clear: left;
 }
 }
  
